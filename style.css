@@ -1,0 +1,32 @@
+
+body{
+    background: url(Assets/Images/Prof-back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.container{
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+
+h1{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+#container1{
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+
+}
+
+
+
+
