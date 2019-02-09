@@ -1,31 +1,113 @@
 
 body{
-    background: url(Assets/Images/Prof-back.jpg) no-repeat center center fixed; 
+    background: url(https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-}
-
-.container{
-    background-color: whitesmoke;
-    padding: 10px;
+    font-family: 'Oswald', sans-serif;;
 
 }
 
 h1{
     text-align: center;
     background-color: whitesmoke;
-    
-}
-
-#container1{
-    padding: 100px;
-    margin-top: 50px;
-    margin-bottom: 300px;
+    padding: 2%;
+    font-size: 20px;
+  
 
 }
+#main{
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+#contact{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: left;
+
+  }
+  .portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+    padding: 10px;
+  }
+  
+  .portfolio-item .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem;
+  }
+  
+  .portfolio-item .caption .caption-content h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  
+  .portfolio-item .caption .caption-content p {
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  
+  @media (min-width: 992px) {
+    .portfolio-item {
+      max-width: none;
+      margin: 0;
+    }
+    .portfolio-item .caption {
+      -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+      -webkit-clip-path: inset(0px);
+      clip-path: inset(0px);
+    }
+    .portfolio-item .caption .caption-content {
+      -webkit-transition: opacity 0.25s;
+      transition: opacity 0.25s;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 5rem;
+    }
+    .portfolio-item img {
+      -webkit-transition: -webkit-clip-path 0.25s ease-out;
+      -webkit-clip-path: inset(-1px);
+      clip-path: inset(-1px);
+    }
+    .portfolio-item:hover img {
+      -webkit-clip-path: inset(2rem);
+      clip-path: inset(2rem);
+    }
+    .portfolio-item:hover .caption {
+      background-color: #708090;
+      -webkit-clip-path: inset(2rem);
+      clip-path: inset(2rem);
+    }
+  }
+
 
 
 
