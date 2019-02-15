@@ -1,25 +1,37 @@
 
-body{
-    background: url(https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+#top{
+    background: url(https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Oswald', sans-serif;;
+    height:600px;
+    width: 112.5%;
+   
 
 }
 
 h1{
     text-align: center;
-    background-color: whitesmoke;
+    color: steelblue;
     padding: 2%;
     font-size: 20px;
-  
+}
+#banner{
+  color:whitesmoke;
+}
 
+
+
+#column{
+
+  border-style: solid;
+  border-color: whitesmoke;
 }
 #main{
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 45px;
 
 }
 
