@@ -7,27 +7,37 @@
     background-size: cover;
     font-family: 'Oswald', sans-serif;;
     height:600px;
-    width: 112.5%;
+    width: auto;
    
 
 }
 
 h1{
     text-align: center;
-    color: steelblue;
+    color: #383838;
     padding: 2%;
     font-size: 20px;
 }
 #banner{
   color:whitesmoke;
 }
+/* .top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: aliceblue;
+} */
 
 
 
 #column{
 
-  border-style: solid;
-  border-color: whitesmoke;
+  border-bottom: solid;
+  border-color: slategray;
+
+
+
 }
 #main{
     font-weight: bolder;
@@ -114,7 +124,7 @@ h1{
       clip-path: inset(2rem);
     }
     .portfolio-item:hover .caption {
-      background-color: #708090;
+      background-color: #383838;
       -webkit-clip-path: inset(2rem);
       clip-path: inset(2rem);
     }
