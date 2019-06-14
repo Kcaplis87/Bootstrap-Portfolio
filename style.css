@@ -1,4 +1,5 @@
 
+
 #top{
     background: url(Assets/Images/topbackground.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -41,15 +42,29 @@ h7{
 }
 
 
-h6, h5{
-  font-size: 35px;
+h6{
+  font-size: 40px;
   text-align: center;
   font-weight: bolder;
   color: black;
 
 }
+h8{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: red;
+  text-decoration: overline;
 
+}
+h9{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: darkblue;
+  text-decoration: overline;
 
+}
 p{
   text-align: center;
 }
@@ -67,7 +82,7 @@ p{
 }
 
 i{
-  font-size: 75px;
+  font-size: 50px;
  padding: 10px;
  
 }
