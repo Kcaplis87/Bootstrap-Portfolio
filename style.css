@@ -21,24 +21,38 @@ h1{
     color: #383838;
     padding: 2%;
     font-size: 20px;
+    font-family: 'Oswald', sans-serif;;
 }
 #bio{
 
 
   width: 500px !important;
-  background-color: rgb(12, 194, 201);
+  /* background-color: rgb(12, 194, 201); */
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;;
+  color: black !important;
 }
 
 
-h5{
+
+h6, h5{
   font-size: 35px;
   text-align: center;
   font-weight: bolder;
+  color: black;
+
 }
+
+
 p{
   text-align: center;
 }
 
+.media{
+  text-align: center;
+}
 #column{
 
   border-bottom: solid;
@@ -48,11 +62,25 @@ p{
 
 }
 
+i{
+  font-size: 75px;
+ padding: 10px;
+ 
+}
 
 #main{
     font-weight: bolder;
     font-size: 45px;
 
+}
+#media1{
+  background-color: whitesmoke;
+  padding-bottom: 25px;
+}
+
+#media2{
+  background-color: whitesmoke;
+  padding-bottom: 50px;
 }
 
 #contact{
