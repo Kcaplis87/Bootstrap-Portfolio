@@ -1,16 +1,18 @@
 
 #top{
-    background: url(https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
+    background: url(https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Oswald', sans-serif;;
-    height:600px;
+    height:750px;
     width: auto;
    
 
 }
+
+
 
 h1{
     text-align: center;
@@ -18,18 +20,23 @@ h1{
     padding: 2%;
     font-size: 20px;
 }
-#banner{
-  color:whitesmoke;
+#bio{
+  margin-left: 100px;
+  margin-top: 75px;
+
+  width: 500px !important;
+  background-color: rgb(12, 194, 201);
 }
-/* .top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-family: 'Oswald', sans-serif;
-  color: aliceblue;
-} */
 
 
+h5{
+  font-size: 35px;
+  text-align: center;
+  font-weight: bolder;
+}
+p{
+  text-align: center;
+}
 
 #column{
 
@@ -39,6 +46,8 @@ h1{
 
 
 }
+
+
 #main{
     font-weight: bolder;
     font-size: 45px;
