@@ -1,6 +1,6 @@
 
 #top{
-    background: url(https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
+    background: url(Assets/Images/topbackground.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
