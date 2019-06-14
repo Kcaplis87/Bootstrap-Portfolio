@@ -21,7 +21,7 @@ h1{
     color: #383838;
     padding: 2%;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
 }
 #bio{
 
@@ -31,10 +31,14 @@ h1{
 }
 
 h2{
-  font-family: 'Oswald', sans-serif;;
+  font-family: 'Oswald', sans-serif;
   color: black !important;
 }
 
+h7{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
 
 
 h6, h5{
@@ -86,6 +90,11 @@ i{
 #contact{
     background-color: whitesmoke;
     padding: 40px;
+}
+
+#contactInfo{
+  height:185px;
+  width: 185px;
 }
 
 .footer {
