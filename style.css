@@ -6,13 +6,15 @@
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Oswald', sans-serif;;
-    height:750px;
+    height:775px;
     width: auto;
-   
+  
 
 }
 
-
+.btn {
+  border: 1px solid black;
+}
 
 h1{
     text-align: center;
