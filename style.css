@@ -9,6 +9,7 @@
     font-family: 'Oswald', sans-serif;;
     height:775px;
     width: auto;
+    margin-bottom: 0;
   
 
 }
@@ -31,6 +32,17 @@ h1{
   /* background-color: rgb(12, 194, 201); */
 }
 
+#work{
+  background-color: #434D56; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;;
+  height:775px;
+  width: auto;
+}
+
 h2{
   font-family: 'Oswald', sans-serif;
   color: black !important;
@@ -49,12 +61,21 @@ h6{
   color: black;
 
 }
+h5{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+  color: whitesmoke;
+  text-decoration: underline;
+  
+
+}
 h8{
   font-size: 20px;
   text-align: center;
   font-weight: bolder;
   color: red;
-  text-decoration: overline;
+  text-decoration: underline;
 
 }
 h9{
@@ -62,7 +83,7 @@ h9{
   text-align: center;
   font-weight: bolder;
   color: darkblue;
-  text-decoration: overline;
+  text-decoration: underline;
 
 }
 p{
@@ -93,17 +114,17 @@ i{
 
 }
 #media1{
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
   padding-bottom: 25px;
 }
 
 #media2{
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
   padding-bottom: 50px;
 }
 
 #contact{
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     padding: 40px;
 }
 
