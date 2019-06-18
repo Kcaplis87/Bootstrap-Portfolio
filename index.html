@@ -16,6 +16,33 @@
    <!-- for the technology logos -->
    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <title>Kyle Caplis</title>
+
+  <!-- inline javascript for technologies chart -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Language', 'Percentage I use'],
+        ['HTML',     11],
+        ['CSS',      2],
+        ['Javascript',  2],
+        ['Watch TV', 2],
+        ['Sleep',    7]
+      ]);
+
+      var options = {
+        title: 'The Technologies I know'
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+      chart.draw(data, options);
+    }
+  </script>
 </head>
 
 <body>
@@ -39,22 +66,17 @@
       <div id="bio">
         <h1 class="display-4"></h1>
         <p class="lead">
-          <div class="card mb-3">
+          <div class="card mb-3" id="landing">
             <div class="row no-gutters">
                
               <div class="card-body">
                 <h6 class="card-title">
-                  < Code >/ Designer
+                  < Coder >/ Designer
                 </h6>
                 
                 <!-- info in the info card -->
-                <p class="card-text">Front-End Web Developer and UI Designer Speciailizing in Professional,
+                <p class="card-text">Front-End Web Developer and UI Designer Speciailizing in Professional,<br>
                   Customer-Centric Web Devlopment</p>
-                 
-                 
-                  <!-- button for something popover to the right -->
-                  <button type="button" class="btn btn-block" data-toggle="popover" title="Resume and Education"  data-content="">Click For More Info</button>
-                  
                   
                   <!-- start of accordian info in the info card -->
                   <div class="accordion" id="accordionExample">
@@ -66,7 +88,7 @@
                           <h2 class="mb-0">
                            
                             <button class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            About Me - Personal
+                            About Me - First Thing
                             </button>
                           </h2>
                         </div>
@@ -83,7 +105,7 @@
                         <div class="card-header" id="headingTwo">
                           <h2 class="mb-0">
                             <button class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            About Me - Professional
+                            About me - Something Else
                             </button>
                           </h2>
                         </div>
@@ -130,81 +152,32 @@
       </div>
     </div>
   </div>
-  <div class="container" id="middle">
-  
-      <div class="media">
-          <img src="https://image.flaticon.com/icons/svg/809/809480.svg" class="mr-3" alt="...">
-          <div class="media-body">
-            <h5 class="mt-0">Media heading</h5>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  <div class="flex-container" id="middle">
+     
+      <div class="card" style="width: 25rem;" id="card1">
+          <img class="card-img-top" src="https://image.flaticon.com/icons/svg/809/809480.svg" alt="Card image cap" style="width: 5rem;"> 
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
-        <div class="media">
-            <div class="media-body">
-              <h5 class="mt-0">Media heading</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        <div class="card" style="width: 25rem;" id="card1">
+            <img class="card-img-top" src="https://image.flaticon.com/icons/svg/809/809480.svg" alt="Card image cap" style="width: 5rem;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077650.svg" class="mr-3" alt="...">
           </div>
-          <div class="media">
-              <img src="https://image.flaticon.com/icons/svg/718/718686.svgls" class="mr-3" alt="...">
-              <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          <div class="card" style="width: 25rem;" id="card1">
+              <img class="card-img-top" src="https://image.flaticon.com/icons/svg/809/809480.svg" alt="Card image cap" style="width: 5rem;">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+          
           </div>
   </div>
   
-  <!-- technologies 1 -->
-  <div class="media" id="media1">
-   
-      <div class="media-body">
-        <br>
-        <h9 class="mt-0">Knowledge</h9>
-        <hr>
-        
-        <i class="devicon-jquery-plain-wordmark colored"></i>
-        <i class="devicon-nodejs-plain-wordmark colored"></i>
-        <i class="devicon-heroku-plain-wordmark colored"></i>
-        <i class="devicon-git-plain-wordmark colored"></i>
-        <i class="devicon-express-original-wordmark "></i>
-        <i class="devicon-php-plain-wordmark colored"></i>
-        <i class="devicon-laravel-plain-wordmark colored"></i>
-        <i class="devicon-react-original-wordmark colored"></i>
-        <i class="devicon-mongodb-plain-wordmark colored"></i>
-        <i class="devicon-mysql-plain-wordmark colored"></i>
-        <i class="devicon-slack-plain-wordmark colored"></i>
-          <i class="devicon-visualstudio-plain-wordmark colored"></i>
-          <i class="devicon-github-plain-wordmark colored"></i>
-        
-          <hr>
-          
-      </div>
-      
-    </div>
  
-
-  
-    <!-- technologies 2 -->
-    <div class="media" id="media2">
-       
-        <div class="media-body">
-          <h8 class="mt-0">Love</h8>
-          <hr>
-          
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-        
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          
-          <br>
-          <hr>
-     
-        </div>
-        
-      </div>
-      
+      <div id="piechart" style="width: 900px; height: 500px;"></div>
      
       <!-- previous work carousel -->
       <div id="work">
@@ -336,12 +309,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!-- code for the popover -->
-<script>
-$(function () {
-    $('[data-toggle="popover"]').popover()
-  })
-</script>
 </body>
 
 <br>

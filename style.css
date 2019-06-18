@@ -1,9 +1,11 @@
-
+#piechart{
+  text-align: center;
+}
 a{
   text-align-last: center;
 }
 #top{
-    background: url(Assets/Images/topbackground.jpg) no-repeat center center fixed; 
+    background: url(https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,12 +14,20 @@ a{
     height:775px;
     width: auto;
     margin-bottom: 0;
-  
+}
 
+#card1{
+  margin-top: 50px;
+  align-items: center;
+}
+
+#landing{
+  background-color: whitesmoke;
 }
 #middle{
   /* background-color: #434D56; */
   font-family: 'Oswald', sans-serif;
+  
 }
 .btn {
   border: 1px solid black;
@@ -33,7 +43,9 @@ h1{
 #bio{
 
 
-  width: 500px !important;
+  width: 600px !important;
+  margin-left: 250px;
+  margin-top: 50px;
   /* background-color: rgb(12, 194, 201); */
 }
 
@@ -65,9 +77,12 @@ h3{
   text-decoration: underline;
 }
 
-
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
 h6{
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   font-weight: bolder;
   color: black;
